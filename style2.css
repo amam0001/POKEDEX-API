@@ -1,0 +1,209 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #5ccae3;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  .card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  }
+  .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  back {
+    background-color: #5ccae3;
+    border: 2px solid #333;
+  }
+  back:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Styles for the navigation bar */
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+  text-align:center;
+}
+nav {
+    display: grid;
+    justify-content: center;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  back {
+    display: block;
+    margin: auto;
+    padding: 11px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #5ccae3;
+    border: none;
+  }
+  
+/* button {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5ccae3;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+  
+  }*/
+ nav button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #0fcce5;
+  }
+
+  button:hover {
+    background-color: #666666;
+  }
+  
+  /* Styles for the Pokémon cards */
+
+  .card {
+    display: inline-block;
+    width: 320px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+   
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 200px;
+  }
+  
+  .card h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
+  .card p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .card.grass {
+    background-color: #9bcc50;
+  }
+  
+  .card.fire {
+    background-color: #fd7d24;
+  }
+  
+  .card.water {
+    background-color: #4592c4;
+  }
+  
+  .card.bug {
+    background-color: #729f3f;
+  }
+  
+  .card.normal {
+    background-color: #a4acaf;
+  }
+  
+  .card.poison {
+    background-color: #b97fc9;
+  }
+  
+  .card.electric {
+    background-color: #eed535;
+  }
+  
+  .card.ground {
+    background-color: #ab9842;
+  }
+  
+  .card.fairy {
+    background-color: #fdb9e9;
+  }
+  
+  .card.fighting {
+    background-color: #d56723;
+  }
+  
+  .card.psychic {
+    background-color: #f366b9;
+  }
+  
+  .card.rock {
+    background-color: #a38c21;
+  }
+  
+  .card.steel {
+    background-color: #9eb7b8;
+  }
+  
+  .card.ice {
+    background-color: #51c4e7;
+  }
+  
+  .card.ghost {
+    background-color: #7b62a3;
+  }
+  
+  .card.dragon {
+    background-color: #53a4cf;
+  }
+  
+  .card.dark {
+    background-color: #707070;
+  }
